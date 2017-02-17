@@ -1,0 +1,12 @@
+.container {
+
+}
+.row {
+	&.small-gutter {
+		padding: 0 15px;
+
+		[class^=col-] {
+			padding: 0 6px;
+		}
+	}
+}

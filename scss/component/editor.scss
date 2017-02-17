@@ -1,0 +1,35 @@
+.note-editor {
+	&.note-frame {
+		border-color: $clouds;
+	}
+	&.fullscreen {
+		bottom: 0;
+		height: 100vh;
+	}
+	.panel-heading {
+		background-color: $white;
+		border-color: $clouds;
+	}
+	&.note-frame .note-editing-area .note-editable {
+		color: $black;
+	}
+	.note-btn {
+		border: 1px solid $clouds;
+		padding: 8px 12px;
+		background-color: $white;
+		outline: none;
+
+		&:hover,
+		&:focus,
+		&:visited,
+		&:active {
+			outline: none;
+		}
+	}
+
+	.btn-default:active,
+	.btn-default.active,
+	.open>.dropdown-toggle.btn-default {
+		background-color: $white;
+	}
+}

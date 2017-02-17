@@ -1,0 +1,36 @@
+/*
+ * WonderFul Admin Template
+ *
+ * Wonderful is FREE Admin template build under Bootstrap Framework with full customize and don't worry SASS/SCSS included.
+ * 
+ * Author  : Muhibbudin Suretno
+ * E-mail  : muhibbudinsuretno1@gmail.com
+ * License : MIT
+ * Version : 
+ * Github  : https://github.com/muhibbudins/wonderful
+ * 
+ */
+
+@import
+	"helper/color.scss",
+	"helper/function.scss",
+
+	"icon/font-awesome.scss",
+	"icon/ion-icons.scss",
+
+	"core/global.scss",
+	"core/navbar.scss",
+	"core/sidebar.scss",
+	"core/content.scss",
+
+	"component/button.scss",
+	"component/card.scss",
+	"component/dropdown.scss",
+	"component/editor.scss",
+	"component/form.scss",
+	"component/grid.scss",
+	"component/hero.scss",
+	"component/masonry.scss",
+	"component/table.scss",
+	"component/toolbar.scss",
+	"component/typography.scss";
